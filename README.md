@@ -51,4 +51,4 @@ As of R Studio 1.1.383, valid theme names are:
 * Tomorrow Night 80
 
 ## Requirements
-R Studio 0.99.878 (addins support)
+R Studio >= 0.99.878 (addins support)
