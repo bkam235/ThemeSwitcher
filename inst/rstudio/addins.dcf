@@ -1,0 +1,9 @@
+Name: Light Theme
+Description: Quick switching to textmate theme
+Binding: light_theme
+Interactive: false
+
+Name: Dark Theme
+Description: Quick switching to monokai theme
+Binding: dark_theme
+Interactive: false
