@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bkam235/ThemeSwitcher.svg?branch=master)](https://travis-ci.org/bkam235/ThemeSwitcher)
+
 # ThemeSwitcher
 ThemeSwitcher enables R Studio users to quickly switch between a light and a dark theme of their preference through the [R Studio addins](https://rstudio.github.io/rstudioaddins/) functionality.
 
