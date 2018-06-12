@@ -10,4 +10,5 @@ light_theme()
 Light theme defaults to TextMate.
 Light theme can be changed with \code{\link{set_light_theme}}.
 This function is executed by ThemeSwitcher addin "Light Theme".
+It throws an error if \code{getOption("themeswitcher.light")} does not return a valid theme name.
 }

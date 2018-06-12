@@ -38,8 +38,11 @@
 #' Light theme defaults to TextMate.
 #' Light theme can be changed with \code{\link{set_light_theme}}.
 #' This function is executed by ThemeSwitcher addin "Light Theme".
+#' It throws an error if \code{getOption("themeswitcher.light")} does not return a valid theme name.
 #'
 light_theme <- function() {
+  if(getOption("themeswitcher.light") %in% getOption("themeswitcher.valid_themes") == FALSE){
+    stop("Theme name not valid. Set it with: set_light_theme()")}
   .rs.writeUiPref("theme", getOption("themeswitcher.light"))
 }
 
@@ -49,8 +52,11 @@ light_theme <- function() {
 #' Dark theme defaults to Material.
 #' Dark theme can be changed with \code{\link{set_dark_theme}}.
 #' This function is executed by ThemeSwitcher addin "Dark Theme".
+#' It throws an error if \code{getOption("themeswitcher.dark")} does not return a valid theme name.
 #'
 dark_theme <- function() {
+  if(getOption("themeswitcher.dark") %in% getOption("themeswitcher.valid_themes") == FALSE){
+    stop("Theme name not valid. Set it with: set_dark_theme()")}
   .rs.writeUiPref("theme", getOption("themeswitcher.dark"))
 }
 

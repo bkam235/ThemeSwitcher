@@ -10,4 +10,5 @@ dark_theme()
 Dark theme defaults to Material.
 Dark theme can be changed with \code{\link{set_dark_theme}}.
 This function is executed by ThemeSwitcher addin "Dark Theme".
+It throws an error if \code{getOption("themeswitcher.dark")} does not return a valid theme name.
 }
