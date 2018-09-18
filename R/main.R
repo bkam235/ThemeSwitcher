@@ -24,7 +24,7 @@
       "Idle Fingers", "Katzenmilch", "Kr Theme", "Material", "Merbivore Soft",
       "Merbivore", "Mono Industrial", "Monokai", "Pastel on Dark", "Solarized Dark",
       "Solarized Light", "TextMate", "Tomorrow Night Blue", "Tomorrow Night Bright",
-      "Tomorrow Night 80s"
+      "Tomorrow Night 80s", "Vibrant Ink"
     )
   )
   toset <- !(names(op.themeswitcher) %in% names(op))
