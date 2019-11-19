@@ -17,8 +17,8 @@ devtools::install_github("bkam235/ThemeSwitcher")
 ## Setting theme preferences
 ThemeSwitcher provides 2 function to set custom theme preferences:
 
-* `set_light_theme(theme = "TextMate")`: sets the light theme that the addin function "Light Theme" applies. Default is "TextMate" (R Studio default theme).
-* `set_dark_theme(theme = "Material")`: sets the light theme that the addin function "Dark Theme" applies. Default is "Material".
+* `ThemeSwitcher::set_light_theme(theme = "TextMate")`: sets the light theme that the addin function "Light Theme" applies. Default is "TextMate" (R Studio default theme).
+* `ThemeSwitcher::set_dark_theme(theme = "Material")`: sets the light theme that the addin function "Dark Theme" applies. Default is "Material".
 
 Both functions expect valid theme name as theme parameter. Valid theme names and their appearance can be found in R Studio under Tools/Global Options/Appearance/Editor Themes.
 
