@@ -3,7 +3,6 @@
 \docType{package}
 \name{ThemeSwitcher}
 \alias{ThemeSwitcher}
-\alias{ThemeSwitcher-package}
 \title{ThemeSwitcher: R Studio addin for quick theme switching}
 \description{
 The ThemeSwitcher package provides an R Studio addin for quick switching between a light and a dark theme.
