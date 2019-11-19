@@ -1,7 +1,7 @@
 Package: ThemeSwitcher
 Type: Package
 Title: Quick theme switcher addin for R Studio
-Version: 0.1.0
+Version: 0.1.1
 Author: Benedikt Kahmen
 Maintainer: Benedikt Kahmen <benedikt.kahmen@protonmail.com>
 Description: R Studio addin to quickly switch between light and dark themes.
@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.0
 Suggests: testthat
+Depends: rstudioapi
